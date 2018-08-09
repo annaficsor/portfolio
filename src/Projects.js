@@ -19,7 +19,7 @@ class Projects extends React.Component {
               <div className="thum col-9 col-sm-6 col-lg-4 mb-4" key={index}>
                 <img className="image" alt="" srcSet={`${project.thumb.first} 1x, ${project.thumb.second} 2x, ${project.thumb.third} 3x`} src={project.thumb.third} />
                 <div className="overlay">
-                  <div className="text">
+                  <div className="text" id="textbutton">
                     <h1 className="pt-4">{project.name}</h1>
                     <p>{project.descript}</p>
                     <Link
