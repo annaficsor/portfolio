@@ -439,12 +439,6 @@ transition: all .3s ease-in-out;
     margin-bottom: 2rem;
   }
 
-  .foot .icons{
-    flex-direction: column!important;
-    align-items: center;
-    justify-content: space-around;
-  }
-
   .foot {
     background-color: #2b2129;
     height: 100%;
@@ -452,7 +446,6 @@ transition: all .3s ease-in-out;
   }
 
   .ico {
-      margin-left: 0!important;
       margin-top: 2rem;
   }
 
@@ -488,6 +481,11 @@ transition: all .3s ease-in-out;
     line-height: 1.5rem;
   }
 
+  .bodycopy ul {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   h3.display  {
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -503,5 +501,9 @@ transition: all .3s ease-in-out;
 
   .casetitle:after {
     width: 15%;
+  }
+
+  .icons img {
+    width: 40px;
   }
 }

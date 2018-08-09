@@ -12,8 +12,8 @@ function Footer(props) {
         <div className="row foot text-center">
           <div className="col align-self-center">
             <h1 className="pb-5" id="contact">Contact me</h1>
-            <div className="d-flex flex-row justify-content-center icons">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/annaficsor"><img src={github} className="ml-5 ico logos" alt="github logo"/></a>
+            <div className=" justify-content-center icons">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/annaficsor"><img src={github} className="ico logos" alt="github logo"/></a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/annaficsor"><img src={linkedin} className="ml-5 ico logos" alt="linkedin logo"/></a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/_annaficsor"><img src={codewars} className="ml-5 ico logos" alt="codewars logo"/></a>
               <a href="mailto:ficsor.anna@gmail.com" rel="noopener noreferrer"><img src={email} className="ml-5 ico logos" alt="email icon"/></a>
