@@ -16,7 +16,7 @@ class Head extends Component {
 
     return (
       <div>
-        <div className="container-fluid">
+        <div className="container-fluid px-0">
           <div className="row headimage d-xl-block">
             <div className="col mr-5  d-none d-xl-block">
               <Fade top>

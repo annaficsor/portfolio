@@ -27,8 +27,8 @@ class Modal extends React.Component {
     }
 
     return (
-      <div className="container">
-        <div className="row fixed-top d-xl-none no-gutters">
+      <div className="container-fluid px-0">
+        <div className="row fixed-top d-xl-none d-flex justify-items-end">
           <div className="col">
             <img className="menu d-xl-none pt-4" alt="menu icon" src={menu} onClick={(event) => this.toggleMenu(event)}/>
           </div>

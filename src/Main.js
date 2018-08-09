@@ -11,14 +11,14 @@ class Main extends Component {
   render() {
 
     return (
-      <div>
+      <div className="container-fluid">
         <Head/>
         <Modal/>
-        <div className="row text-center">
-          <div className="col-12 mt-5">
-            <img alt="" className="mt-5 arrow" src={arrow}/>
+          <div className="row text-center">
+            <div className="col-12 mt-5">
+              <img alt="" className="mt-5 arrow" src={arrow}/>
+            </div>
           </div>
-        </div>
         <Projects/>
         <Footer/>
       </div>
