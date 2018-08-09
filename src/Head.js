@@ -51,7 +51,7 @@ class Head extends Component {
                     </div>
                     <Link
                     to='/about'
-                    className="nav-link aboutme"
+                    className="nav-link aboutme px-0"
                     ><button>More about me</button></Link>
                   </div>
                 </Fade>

@@ -463,6 +463,10 @@ transition: all .3s ease-in-out;
   .casename h1  {
     margin-top: 3rem;
   }
+
+  .headtxt {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
