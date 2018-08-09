@@ -18,7 +18,7 @@ class CaseStudy extends React.Component {
       <div className="container-fluid">
         <div className="row">
           <Fade spy={study} appear delay={200}>
-            <div className="col-7 d-none d-md-block">
+            <div className="col-7 pl-0 d-none d-md-block">
               <svg viewBox="0 0 1267.13 458.27">
                 <g data-name="Layer 2">
                   <path d="M0 0v383.5l478.94 68a684 684 0 0 0 634.56-255.38L1267.13 0z" fill={study.color} data-name="Rome project"/>
