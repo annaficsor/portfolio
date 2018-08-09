@@ -103,9 +103,7 @@ button:hover {
 
 .menu {
   width: 60px;
-  position: absolute;
   z-index: 5000;
-  right: 2rem;
 }
 
 #flyoutMenu {
