@@ -1,0 +1,507 @@
+body {
+  font-family: 'Roboto', sans-serif!important;
+  background-color: #FDFBF9!important;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif!important;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.bodycopy p {
+  max-width: 710px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #414042;
+}
+
+/* ------ Main page header part ------ */
+
+.headimage {
+  background-image: url('./assets/headerbig.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  color: #FDFBF9;
+}
+
+.headimage .nav-link {
+  color: #FDFBF9;
+  font-weight: 300;
+  font-size: 1.5rem;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.bighead {
+  width: 100vw;
+}
+
+.headtxt {
+  color: #FDFBF9;
+}
+
+.headtxt h1 {
+  font-size: 4rem;
+}
+
+.headp {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 2.1rem;
+}
+
+.icons img {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  color: #FDFBF9;
+  border: 2px solid  #FDFBF9;
+  background-color: #351e31;
+  border-radius: 30px!important;
+  font-weight: bold;
+  font-size: 1.6rem!important;
+  padding: 0.3rem 2rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #FDFBF9;
+  color: #2B2129;
+}
+
+.nav .nav-link:hover {
+  font-weight: 600;
+  background-color: #FDFBF9;
+  color: #351e31;
+}
+
+.nav .nav-link {
+  border-radius: 30px;
+}
+
+.profile {
+  width: 280px;
+  height: 280px;
+  -webkit-box-shadow: 0px 0px 74px -8px rgba(49, 26, 49,1);
+  -moz-box-shadow: 0px 0px 74px -8px rgba(49, 26, 49,1);
+  box-shadow: 0px 0px 74px -8px rgba(49, 26, 49,1);
+}
+
+.arrow {
+  width: 100px;
+}
+
+/* ------ Flyout Menu section ------ */
+
+.menu {
+  width: 60px;
+  position: absolute;
+  z-index: 5000;
+  right: 2rem;
+}
+
+#flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2B2129;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+#flyoutMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+
+#flyoutMenu h2  {
+  color: #FDFBF9;
+  text-decoration: none;
+}
+
+#flyoutMenu h2 a {
+  color: #FDFBF9;
+  text-decoration: none;
+}
+
+#flyoutMenu h2 a:hover {
+  text-decoration: underline;
+}
+
+/* ------ Projects section ------ */
+
+.title h1 {
+  font-size: 4rem;
+}
+
+.image {
+  border-radius: 20px!important;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  border-radius: 20px!important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 100%;
+  width: calc(100% - 30px);
+  opacity: 0;
+  transition: .5s ease;
+  background: #2B2129;
+}
+
+.overlay button {
+  background-color: #2b2129;
+}
+
+.overlay button:hover {
+  background-color: #FDFBF9;
+}
+
+.thum:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #FDFBF9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.text p {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.text button {
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 1rem!important;
+  padding: 0.3rem 2rem;
+  margin-top: 0.3rem;
+}
+
+/* ------ Case study section ------ */
+
+.casehome {
+top: 0;
+}
+
+.case button {
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 1.2rem!important;
+  padding: 0.3rem 1rem;
+  margin-top: 0.3rem;
+  color: #2B2129;
+  border: 2px solid #2B2129;
+  background-color: #FDFBF9;
+}
+
+.case button:hover {
+  background-color: #2B2129;
+  color: #FDFBF9;
+}
+
+.bodycopy ul {
+  max-width: 710px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #414042;
+}
+
+.desktoppic {
+  width: 100%;
+  max-height: 720px;
+}
+
+.opticspic {
+  width: 100%;
+  max-height: 1780px;
+}
+
+.caseimage {
+  max-height: 100%;
+  max-width: 90%;
+}
+
+h3.display  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  line-height: 1.7rem;
+}
+
+h4.casetitle {
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.casetitle:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  width: 5%;
+  border-bottom: 1px solid #414042;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 300;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+}
+
+/* ------ About part ------ */
+
+.profileabout {
+    -webkit-box-shadow: 0px 0px 74px -8px rgba(143,143,143,0.8);
+  -moz-box-shadow: 0px 0px 74px -8px rgba(143,143,143,0.8);
+  box-shadow: 0px 0px 74px -8px rgba(143,143,143,0.8);
+  margin-top: 5%;
+}
+
+.skills li {
+  list-style: none;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills {
+    max-width: 900px!important;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.lititle {
+  font-weight: bold;
+}
+
+.lititle:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  width: 20%;
+  border-bottom: 1px solid #414042;
+}
+
+/* ------ Icons ------ */
+
+.logos:hover {
+  border-radius: 100px;
+  padding: 2px;
+  border: 3px solid #FDFBF9;
+  transform: scale(1.1)
+}
+
+.logos {
+transition: all .3s ease-in-out;
+}
+
+/* ------ Footer section ------ */
+
+.foot {
+  background-image: url('./assets/footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #FDFBF9;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.copy {
+  position: absolute;
+  top: 10rem;
+}
+
+
+/* ------ Responsive part ------ */
+
+@media (min-width: 1200px) {
+  .text h1 {
+    margin-bottom: 0.2rem;
+    padding-top: 2.5rem;
+  }
+
+  .text p {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .text h1 {
+    font-size: 1.7rem;
+  }
+
+  .text p {
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+
+  .text button {
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+  }
+}
+
+
+@media (max-width: 1310px) {
+  .profile {
+    width: 250px;
+    height: 250px;
+  }
+
+  .headtxt {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .profile {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  img.profileabout {
+    width: 60%;
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .headtxt h1 {
+    font-size: 3rem;
+  }
+
+  .headp {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.9rem;
+  }
+
+  .headimage {
+      background-color: #351e31;
+      height: 100%;
+      color: #FDFBF9;
+  }
+
+  .aboutme {
+    margin-bottom: 2rem;
+  }
+
+  .foot .icons{
+    flex-direction: column!important;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .foot {
+    background-color: #2b2129;
+    height: 100%;
+    color: #FDFBF9;
+  }
+
+  .ico {
+      margin-left: 0!important;
+      margin-top: 2rem;
+  }
+
+  h1#contact {
+    margin-top: 2rem;
+    padding-bottom: 1rem!important;
+  }
+}
+
+@media (min-width: 844px) {
+  .casename h1  {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 844px) {
+  .casename h1  {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .title h1 {
+    font-size: 3.5rem;
+  }
+
+  .casename h1  {
+    margin-top: 5rem;
+  }
+
+  .bodycopy p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  h3.display  {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  h4.casetitle {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .casetitle:after {
+    width: 15%;
+  }
+}
