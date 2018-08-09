@@ -48,7 +48,7 @@ class CaseStudy extends React.Component {
         </div>
         <div className="row">
           <Fade spy={study} appear>
-            <div className="col-6 casehome position-absolute d-none d-md-block">
+            <div className="col-6 casehome fixed-top d-none d-md-block">
               <Link
               to='/'
               className="nav-link pt-4 ml-5"

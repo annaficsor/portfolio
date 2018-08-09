@@ -217,6 +217,7 @@ button:hover {
 
 .casehome {
 top: 0;
+z-index: 5000!important;
 }
 
 .casename button {
@@ -413,6 +414,10 @@ transition: all .3s ease-in-out;
   img.profileabout {
     width: 60%;
     margin-top: 7rem;
+  }
+
+  .overlay {
+    opacity: 1;
   }
 }
 
