@@ -17,7 +17,7 @@
       "third":"./assets/rome_phone@3x.png"
     },
     "linkname": "romemap",
-    "github": "https://github.com/enifeni/rome-map-udacity",
+    "github": "https://github.com/annaficsor/rome-map-udacity",
     "site": "https://annaficsor.github.io/rome-map-udacity/",
     "color": "#FEC076",
     "heading": ["Role: UI Designer, Front-End Web Developer", "Client: Udacity Scholarship Project", "Date: July 2018"],
@@ -54,7 +54,7 @@
       "third":"./assets/myread_phone@3x.png"
     },
     "linkname": "myreads",
-    "github": "https://github.com/enifeni/myreads-react-udacity",
+    "github": "https://github.com/annaficsor/myreads-react-udacity",
     "site": "https://annaficsor.github.io/myreads-react-udacity/",
     "color": "#FFF1FF",
     "heading": ["Role: UI Designer, Front-End Web Developer", "Client: Udacity Scholarship Project", "Date: June 2018"],
@@ -97,7 +97,7 @@
       "third":"./assets/memo_phone@3x.png"
     },
     "linkname": "memory",
-    "github": "https://github.com/enifeni/memory-game",
+    "github": "https://github.com/annaficsor/memory-game",
     "site": "https://annaficsor.github.io/memory-game/",
     "color": "#9999ff",
     "heading": ["Role: UI Designer, Front-End Web Developer", "Client: Udacity Scholarship Project", "Date: March 2018"],
@@ -139,7 +139,7 @@
       "third":"./assets/arcade_phone@3x.png"
     },
     "linkname": "arcade",
-    "github": "https://github.com/enifeni/arcade-game",
+    "github": "https://github.com/annaficsor/arcade-game",
     "site": "https://annaficsor.github.io/arcade-game/",
     "color": "#d7e5ff",
     "heading": ["Role: Front-End Web Developer", "Client: Udacity Scholarship Project", "Date: March 2018"],

@@ -71,8 +71,8 @@ class CaseStudy extends React.Component {
                 </div>
                 {study.github && (
                   <div>
-                  <a href={study.github} target="_blank"><button className="mb-3">View repo on GitHub &#62;&#62; </button></a>
-                  <a href={study.site} target="_blank"><button className="mb-4">Visit website &#62;&#62; </button></a>
+                  <a href={study.github} target="_blank" rel="noopener noreferrer"><button className="mb-3">View repo on GitHub &#62;&#62; </button></a>
+                  <a href={study.site} target="_blank" rel="noopener noreferrer"><button className="mb-4">Visit website &#62;&#62; </button></a>
                   </div>
                 )}
                 <h4 className="casetitle">Project</h4>

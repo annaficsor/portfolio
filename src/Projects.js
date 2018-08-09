@@ -27,8 +27,8 @@ class Projects extends React.Component {
                     ><button className="mb-2">Read the case study &#62;&#62; </button></Link>
                     {project.github && (
                       <div>
-                      <a href={project.github} target="_blank"><button className="mb-2">View repo on GitHub &#62;&#62; </button></a>
-                      <a href={project.site} target="_blank"><button className="mb-2">Visit website &#62;&#62; </button></a>
+                      <a href={project.github} target="_blank" rel="noopener noreferrer"><button className="mb-2">View repo on GitHub &#62;&#62; </button></a>
+                      <a href={project.site} target="_blank" rel="noopener noreferrer"><button className="mb-2">Visit website &#62;&#62; </button></a>
                       </div>
                     )}
                   </div>
