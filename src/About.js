@@ -64,7 +64,7 @@ class About extends Component {
                 <Fade bottom>
                   <p className="mx-auto">My name is Anna Ficsor, and I am a (self-taught) <del>nanoninja</del> junior front-end web developer and UI designer.
                   In 2017 I have decided to make a career change and started to learn UI design and code. I have always been interested in the stuff of the internet, and how things work. I love learning and expanding my boundaries.</p>
-                  <p className="mx-auto">In November I had been accepted into the Google Developer Challenge Scholarship, and after a 3-month challenge I was, selected as one of the 6000 recipients (out of 200K initial  application) to receive a full 6-month Google Developer Nanodegree Scholarship.</p>
+                  <p className="mx-auto">In November I had been accepted into the Google Developer Challenge Scholarship, and after a 3-month challenge I was selected as one of the 6000 recipients (out of 200K initial  application) to receive a full 6-month Google Developer Nanodegree Scholarship.</p>
                   <p className="mx-auto">I have almost 10 years experience in the marketing industry, and in project management. I am seeking to use my background in problem-solving, planning, developing and overseeing marketing materials to create and maintain web and mobile applications.</p>
                 </Fade>
               </div>
