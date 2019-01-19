@@ -6,6 +6,7 @@ import Main from './Main';
 import About from './About';
 import CaseStudy from './CaseStudy';
 import ScrollToTop from './ScrollToTop';
+import GoogleAnalytics from './GoogleAnalytics';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path='/about' component={About}/>
             <Route exact path='/:name' component={CaseStudy}/>
           </Switch>
+          <GoogleAnalytics />
         </ScrollToTop>
       </div>
     );
