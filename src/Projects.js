@@ -23,7 +23,7 @@ class Projects extends React.Component {
                     <h1 className="pt-4">{project.name}</h1>
                     <p>{project.descript}</p>
                     <Link
-                    to={`/${project.linkname}/${index}`}
+                    to={`/${index}/${project.linkname}`}
                     ><button className="mb-2">Read the case study &#62;&#62; </button></Link>
                     {project.github && (
                       <div>

@@ -17,7 +17,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Main}/>
               <Route exact path='/about' component={About}/>
-              <Route exact path='/:project/:index' component={CaseStudy}/>
+              <Route exact path='/:index/:project' component={CaseStudy}/>
             </Switch>
           </ScrollToTop>
         </Analytics>
