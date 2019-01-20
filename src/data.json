@@ -2,19 +2,19 @@
     "name": "Rome Map",
     "descript": "Code + UI Design",
     "thumb": {
-      "first": "./assets/rome_thumb.png",
-      "second": "./assets/rome_thumb@2x.png",
-      "third":"./assets/rome_thumb@3x.png"
+      "first": "/assets/rome_thumb.png",
+      "second": "/assets/rome_thumb@2x.png",
+      "third":"/assets/rome_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/rome_desktop.png",
-      "second": "./assets/rome_desktop@2x.png",
-      "third":"./assets/rome_desktop@3x.png"
+      "first": "/assets/rome_desktop.png",
+      "second": "/assets/rome_desktop@2x.png",
+      "third":"/assets/rome_desktop@3x.png"
     },
     "phone": {
-      "first": "./assets/rome_phone.png",
-      "second": "./assets/rome_phone@2x.png",
-      "third":"./assets/rome_phone@3x.png"
+      "first": "/assets/rome_phone.png",
+      "second": "/assets/rome_phone@2x.png",
+      "third":"/assets/rome_phone@3x.png"
     },
     "linkname": "romemap",
     "github": "https://github.com/annaficsor/rome-map-udacity",
@@ -39,19 +39,19 @@
     "name": "My Reads",
     "descript": "Code + UI Design",
     "thumb": {
-      "first": "./assets/myreads_thumb.png",
-      "second": "./assets/myreads_thumb@2x.png",
-      "third":"./assets/myreads_thumb@3x.png"
+      "first": "/assets/myreads_thumb.png",
+      "second": "/assets/myreads_thumb@2x.png",
+      "third":"/assets/myreads_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/myread_desktop.png",
-      "second": "./assets/myread_desktop@2x.png",
-      "third":"./assets/myread_desktop@3x.png"
+      "first": "/assets/myread_desktop.png",
+      "second": "/assets/myread_desktop@2x.png",
+      "third":"/assets/myread_desktop@3x.png"
     },
     "phone": {
-      "first": "./assets/myread_phone.png",
-      "second": "./assets/myread_phone@2x.png",
-      "third":"./assets/myread_phone@3x.png"
+      "first": "/assets/myread_phone.png",
+      "second": "/assets/myread_phone@2x.png",
+      "third":"/assets/myread_phone@3x.png"
     },
     "linkname": "myreads",
     "github": "https://github.com/annaficsor/myreads-react-udacity",
@@ -82,19 +82,19 @@
     "name": "Memory Game",
     "descript": "Code + UI Design",
     "thumb": {
-      "first": "./assets/memory_thumb.png",
-      "second": "./assets/memory_thumb@2x.png",
-      "third":"./assets/memory_thumb@3x.png"
+      "first": "/assets/memory_thumb.png",
+      "second": "/assets/memory_thumb@2x.png",
+      "third":"/assets/memory_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/memo_desktop.png",
-      "second": "./assets/memo_desktop@2x.png",
-      "third":"./assets/memo_desktop@3x.png"
+      "first": "/assets/memo_desktop.png",
+      "second": "/assets/memo_desktop@2x.png",
+      "third":"/assets/memo_desktop@3x.png"
     },
     "phone": {
-      "first": "./assets/memo_phone.png",
-      "second": "./assets/memo_phone@2x.png",
-      "third":"./assets/memo_phone@3x.png"
+      "first": "/assets/memo_phone.png",
+      "second": "/assets/memo_phone@2x.png",
+      "third":"/assets/memo_phone@3x.png"
     },
     "linkname": "memory",
     "github": "https://github.com/annaficsor/memory-game",
@@ -124,19 +124,19 @@
     "name": "Arcade Game",
     "descript": "Code",
     "thumb": {
-      "first": "./assets/arcade_thumb.png",
-      "second": "./assets/arcade_thumb@2x.png",
-      "third":"./assets/arcade_thumb@3x.png"
+      "first": "/assets/arcade_thumb.png",
+      "second": "/assets/arcade_thumb@2x.png",
+      "third":"/assets/arcade_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/arcade_desktop.png",
-      "second": "./assets/arcade_desktop@2x.png",
-      "third":"./assets/arcade_desktop@3x.png"
+      "first": "/assets/arcade_desktop.png",
+      "second": "/assets/arcade_desktop@2x.png",
+      "third":"/assets/arcade_desktop@3x.png"
     },
     "phone": {
-      "first": "./assets/arcade_phone.png",
-      "second": "./assets/arcade_phone@2x.png",
-      "third":"./assets/arcade_phone@3x.png"
+      "first": "/assets/arcade_phone.png",
+      "second": "/assets/arcade_phone@2x.png",
+      "third":"/assets/arcade_phone@3x.png"
     },
     "linkname": "arcade",
     "github": "https://github.com/annaficsor/arcade-game",
@@ -160,19 +160,19 @@
     "name": "Logo Designs",
     "descript": "Design",
     "thumb": {
-      "first": "./assets/logo_thumb.png",
-      "second": "./assets/logo_thumb@2x.png",
-      "third":"./assets/logo_thumb@3x.png"
+      "first": "/assets/logo_thumb.png",
+      "second": "/assets/logo_thumb@2x.png",
+      "third":"/assets/logo_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/wildlife.png",
-      "second": "./assets/wildlife@2x.png",
-      "third":"./assets/wildlife@3x.png"
+      "first": "/assets/wildlife.png",
+      "second": "/assets/wildlife@2x.png",
+      "third":"/assets/wildlife@3x.png"
     },
     "phone": {
-      "first": "./assets/space.png",
-      "second": "./assets/space@2x.png",
-      "third":"./assets/space@3x.png"
+      "first": "/assets/space.png",
+      "second": "/assets/space@2x.png",
+      "third":"/assets/space@3x.png"
     },
     "linkname": "logos",
     "color": "#FFBC00",
@@ -191,14 +191,14 @@
     "name": "Optics Site",
     "descript": "UI Design",
     "thumb": {
-      "first": "./assets/optics_thumb.png",
-      "second": "./assets/optics_thumb@2x.png",
-      "third":"./assets/optics_thumb@3x.png"
+      "first": "/assets/optics_thumb.png",
+      "second": "/assets/optics_thumb@2x.png",
+      "third":"/assets/optics_thumb@3x.png"
     },
     "desktop": {
-      "first": "./assets/optics.png",
-      "second": "./assets/optics@2x.png",
-      "third":"./assets/optics@3x.png"
+      "first": "/assets/optics.png",
+      "second": "/assets/optics@2x.png",
+      "third":"/assets/optics@3x.png"
     },
     "linkname": "optics",
     "color": "#FF786F",

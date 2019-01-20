@@ -9,8 +9,8 @@ import Fade from 'react-reveal/Fade';
 
 class CaseStudy extends React.Component {
   render() {
-    const study = project[this.props.match.params.name];
-    if (!study) {
+    const study = project[this.props.match.params.index];
+      if (!study) {
         return null;
       }
 
